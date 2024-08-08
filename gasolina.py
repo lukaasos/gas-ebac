@@ -6,4 +6,4 @@ df = pd.read_csv('gasolina.csv')
 
 fig = sns.lineplot(data=df, x=df['dia'], y=df['venda'])
 fig.set(xlabel ="Dia", ylabel = "Venda", title ='Gasolina')
-plt.savefig('gasolina.png')
+#plt.savefig('gasolina.png')
